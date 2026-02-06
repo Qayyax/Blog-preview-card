@@ -15,6 +15,7 @@
 body {
   font-family: "Figtree", sans-serif;
   font-weight: 500;
+  font-size: 1em;
   margin: 0;
   padding: 0;
   display: flex;
@@ -33,6 +34,10 @@ main {
   box-shadow: 10px 10px var(--Gray-950);
 }
 
+h1 {
+  font-size: 1.5em;
+}
+
 .tag {
   background-color: var(--yellow);
   border-radius: 12px;
@@ -45,4 +50,21 @@ main {
   width: 100%;
   height: auto;
   border-radius: 20px;
+}
+
+.content {
+  color: var(--Gray-500);
+}
+
+.author {
+  color: var(--Gray-950);
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.author img {
+  max-width: 40px;
+  max-height: 40px;
 }
