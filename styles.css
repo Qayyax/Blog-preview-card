@@ -4,3 +4,15 @@
   --Gray-500: hsl(0, 0%, 42%);
   --Gray-950: hsl(0, 0%, 7%);
 }
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+  font-weight: 500 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+}
