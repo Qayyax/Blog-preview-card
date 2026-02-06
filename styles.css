@@ -44,6 +44,12 @@ h1 {
   padding: 10px 15px;
   display: inline-block;
   font-weight: 800;
+  transition: filter 0.3s ease;
+}
+
+.tag:hover {
+  background-color: var(--yellow);
+  filter: brightness(60%);
 }
 
 .illustration {
